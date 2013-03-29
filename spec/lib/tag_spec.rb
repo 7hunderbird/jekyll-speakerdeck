@@ -8,7 +8,7 @@ describe Jekyll::Speakerdeck::Tag do
 
   describe "There is a speakerdeck_id and data_slide." do
   let(:data_slide) { Forgery(:basic).number.to_s }
-    let(:markup) { "#{speakerdeck_id} #{data_slide}" }
+    let(:markup) { "#{speakerdeck_id},#{data_slide}" }
     let(:js) { %|<script async="true" data-slide="#{data_slide}" class="speakerdeck-embed" data-id="#{speakerdeck_id}" src="//speakerdeck.com/assets/embed.js"></script>| }
 
     it 'must equal js tag' do
