@@ -1,6 +1,6 @@
 # Jekyll::Speakerdeck
 
-TODO: Write a gem description
+Jekyll::Speakerdeck is Liquid extention for Jekyll.
 
 ## Installation
 
@@ -18,7 +18,9 @@ Add the following to your _plugins/ext.rb file:
 
 ## Usage
 
-TODO: Write usage instructions here
+Your template file:
+
+    {% speakerdeck b02f59b0736c013083991231381b27eb %}
 
 ## Contributing
 
