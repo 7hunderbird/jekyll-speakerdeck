@@ -8,7 +8,7 @@ Jekyll::Speakerdeck is jekyll plugin for Speakerdeck.
 
 Add this line to your application's Gemfile:
 
-    gem 'jekyll-speakerdeck', git: 'git@github.com:1syo/jekyll-speakerdeck.git', require: false
+    gem 'jekyll-speakerdeck', git: 'git@github.com:1syo/jekyll-speakerdeck.git', tag: 'v0.0.1', require: false
 
 And then execute:
 
