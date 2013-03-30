@@ -1,6 +1,6 @@
 # Jekyll::Speakerdeck
 
-Jekyll::Speakerdeck is Liquid extention for Jekyll.
+Jekyll::Speakerdeck is jekyll plugin for Speakerdeck.
 
 ## Installation
 

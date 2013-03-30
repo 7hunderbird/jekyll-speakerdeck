@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Jekyll::Speakerdeck::VERSION
   spec.authors       = ["TAKAHASHI Kazunari"]
   spec.email         = ["takahashi@1syo.net"]
-  spec.description   = %q{Jekyll::Speakerdeck is Liquid extention for Jekyll.}
-  spec.summary       = %q{Jekyll::Speakerdeck is Liquid extention for Jekyll.}
+  spec.description   = %q{Jekyll::Speakerdeck is jekyll plugin for Speakerdeck.}
+  spec.summary       = %q{Jekyll::Speakerdeck is jekyll plugin for Speakerdeck.}
   spec.homepage      = "https://github.com/1syo/jekyll-speakerdeck"
   spec.license       = "MIT"
 
