@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/1syo/jekyll-speakerdeck.png?branch=master)](https://travis-ci.org/1syo/jekyll-speakerdeck)
+
 # Jekyll::Speakerdeck
 
 Jekyll::Speakerdeck is jekyll plugin for Speakerdeck.
