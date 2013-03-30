@@ -1,5 +1,3 @@
-require 'shellwords'
-
 module Jekyll::Speakerdeck
   class TagParser
     attr_accessor :speakerdeck_id, :options

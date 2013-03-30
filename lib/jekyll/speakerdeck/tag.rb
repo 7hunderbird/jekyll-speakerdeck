@@ -6,7 +6,7 @@ module Jekyll::Speakerdeck
     end
 
     def render(context)
-      %|<script async="true" data-slide="#{data_slide}" class="speakerdeck-embed" data-id="#{speakerdeck_id}" src="//speakerdeck.com/assets/embed.js"></script>|
+      %|<script async="true" class="speakerdeck-embed" data-id="#{speakerdeck_id}" src="//speakerdeck.com/assets/embed.js"#{options}></script>|
     end
 
     private
@@ -14,8 +14,11 @@ module Jekyll::Speakerdeck
       @parser.speakerdeck_id
     end
 
-    def data_slide
-      @parser.data_slide || "1"
+    def options
+      %| #{@parser.options}| unless @parser.options == ""
     end
   end
 end
+
+
+Liquid::Template.register_tag('speakerdeck', Jekyll::Speakerdeck::Tag)
