@@ -4,6 +4,7 @@ PATH
     jekyll-speakerdeck (0.0.1)
       jekyll (>= 3.0, < 5.0)
       liquid (> 2.3.0)
+      minitest
 
 GEM
   remote: https://rubygems.org/
@@ -48,6 +49,7 @@ GEM
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
     method_source (0.8.1)
+    minitest (5.11.3)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     pry (0.9.12)

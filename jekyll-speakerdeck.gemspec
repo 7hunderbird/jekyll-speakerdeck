@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["takahashi@1syo.net"]
   spec.description   = %q{Jekyll::Speakerdeck is jekyll plugin for Speakerdeck.}
   spec.summary       = %q{Jekyll::Speakerdeck is jekyll plugin for Speakerdeck.}
-  spec.homepage      = "https://github.com/1syo/jekyll-speakerdeck"
+  spec.homepage      = "https://github.com/7hunderbird/jekyll-speakerdeck"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -20,6 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "liquid", "> 2.3.0"
   spec.add_dependency "jekyll", ">= 3.0", "< 5.0"
+  spec.add_dependency "minitest"
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "pry"
