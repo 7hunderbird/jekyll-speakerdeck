@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.org/7hunderbird/jekyll-speakerdeck.svg?branch=master](https://travis-ci.org/7hunderbird/jekyll-speakerdeck)
-
+[![Build Status](https://travis-ci.org/7hunderbird/jekyll-speakerdeck.svg?branch=master)](https://travis-ci.org/7hunderbird/jekyll-speakerdeck)
 
 
 # Jekyll::Speakerdeck
